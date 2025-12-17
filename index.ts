@@ -151,7 +151,7 @@ add("2","2");*/
 }
 getAge(22)
 getAge("22")*/
-/*
+
 type userDetail = {
     name:string,
     age:number
@@ -178,21 +178,10 @@ getDeatails<AdminDetail>(admin);
 
 //enum
 
-enum  SeatType {
-    PENDING = "pending",
-    COMPLETED = "compleated",
-    FAILED = "field"
-}
-
-function getStatus(orderID: string, status: SeatType){
-    console.log(orderID, "==", status)
-}
-getStatus("12345",SeatType.COMPLETED)
-
 //as const (Type Casting)
 
 let currentSeat:SeatType = "pending" as SeatType;
-*/
+
 
 //keyof typeOf
 
